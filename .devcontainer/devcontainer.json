@@ -1,0 +1,87 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}Disassembler
+
+Disassembler
+
+OVERVIEW
+
+Select any file
+
+Error creating a project!!
+
+kotlin.io.FileAlreadyExistsException: /storage/emulated/ 0/Android/data/com.kyhsgeekcode.disassembler/files/ tmp/openDirect->/storage/emulated/0/Android/data/
+
+com.kyhsgeekcode.disassembler/files/projects/openDirect/original/
+
+SELECT FILE
+
+openDirect: The destination file already exists.
+
+at kotlin.io.FilesKt UtilsKt.copyTo(Utils.kt:224) at kotlin.io.Fileskt Utilskt.copyToSdefault(Utils.kt:217)
+
+at
+
+com.kyhsgeekcode.disassembler.project.ProjectManager.newProjec
+
+t(ProjectManager.kt:105)
+
+at
+
+com.kyhsgeekcode.disassembler.MainActivity.onChoosePathNew
+
+MainActivity.kt:795) at com.kyhsgeekcode.disassembler.MainActivity.handleViewActionInte
+
+nt(MainActivity.kt:279) at com.kyhsgeekcode.disassembler.MainActivity.access$handleViewA ctionIntent(MainActivity.kt:58)
+
+at
+
+com.kyhsgeekcode disassembler.MainActivitySonCreate$2.run(Main Activity.kt 219) at com.kyhsgeekcode.disassembler.MainActivity.onRequestPermissio
+
+nsResult(MainActivity.kt:532) at com.kyhsgeekcode.disassembler.PermissionUtils.requestAppPermi ssions(PermissionUtils.kt:27)
+
+at
+
+com.kyhsgeekcode.disassembler.MainActivity.onCreate(MainActivit
+
+ykt:221)
+
+at android.app.Activity.performCreate(Activity.java:8000) at android.app.Activity.performCreate(Activity.java:7984)
+
+at
+
+android.app.Instrumentation.callActivityOnCreate(Instrumentation.ja va:1310) at
+
+android.app.ActivityThread.performLaunchActivity(ActivityThread.jav
+
+a:3416) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java: 3607)
+
+at
+
+android.app.servertransaction.LaunchActivityitem.execute(LaunchAc
+
+tivityitem.java:85)
+
+at
+
+android.app.servertransaction. TransactionExecutor.executeCallback s(TransactionExecutor.java:135) at
+
+android.app.servertransaction. TransactionExecutor.execute(Transact ionExecutor.java:95) at
+
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:20 78)
+
+at android.os.Handler.dispatchMessage(Handler.java:106) at android.os.Looper.loop(Looper.java:223)
+
+at android.app.ActivityThread.main(ActivityThread.java:7721)
+
+at java.lang.reflect.Method.invoke(Native Method)
+
+at
+
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Runti melnit.java:592)
+
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:952)
+
+OK
